@@ -1,0 +1,298 @@
+Root Word,Number of Categories,Number of Occurrences,Score,Score2
+Cobb,16,207,1.0,91
+Marietta,15,127,6.0,86
+Cumberland,13,49,48.0,76
+Kennesaw,13,79,12.0,76
+Acworth,12,44,100.0,71
+Smyrna,12,35,120.0,71
+East Cobb,11,38,154.0,66
+Powder Springs,11,54,77.0,61
+Lost Mountain,10,24,387.0,61
+Austell,9,24,430.0,56
+Roswell,9,19,540.0,51
+Barrett,8,27,408.0,41
+Big Shanty,8,17,756.0,50
+Cobb County,8,68,96.0,46
+Pointe,8,76,60.0,55
+Vinings,8,70,72.0,41
+Wildwood,8,21,600.0,46
+Windy Hill,8,17,756.0,41
+Brumby,7,12,1786.0,41
+Cheatham Hill,7,12,1786.0,46
+Hickory,7,70,114.0,46
+Mabry,7,15,1349.0,41
+Mount Bethel,7,10,2204.0,46
+Noonday,7,65,171.0,46
+Parkway,7,173,38.0,36
+Town Center,7,15,1349.0,36
+Akers Mill,6,7,4509.0,26
+Chattahoochee,6,39,567.0,36
+Mableton,6,9,3456.0,31
+Milford,6,26,972.0,41
+Paces,6,45,486.0,26
+Parkwood,6,12,2538.0,31
+Peachtree,6,11,2889.0,35
+Powers Ferry,6,22,1296.0,31
+Sandy Plains,6,14,2106.0,31
+Shiloh,6,37,621.0,36
+Terrell Mill,6,12,2538.0,31
+Allatoona,5,46,697.0,26
+Blackwell,5,19,2214.0,26
+Clarkdale,5,6,7790.0,40
+Cooper Lake,5,11,4387.0,26
+Floyd Road,5,8,6068.0,26
+Jonquil,5,5,8938.0,30
+Kennesaw Mountain,5,10,4756.0,26
+Lakeside,5,17,2583.0,21
+Laurel,5,45,738.0,30
+Leland,5,10,4756.0,35
+Loch Highland,5,11,4387.0,26
+Meadows,5,23,1886.0,31
+Mountain View,5,17,2583.0,36
+Shallowford,5,15,2911.0,35
+Six Flags,5,6,7790.0,26
+Sope Creek,5,52,615.0,30
+Walton,5,18,2378.0,26
+Ballpark,4,4,15616.0,16
+Barber,4,22,2928.0,21
+Bells Ferry,4,13,5124.0,25
+Belmont,4,18,3538.0,25
+Blue Springs,4,7,10187.0,25
+Brookwood,4,7,10187.0,30
+Building A,4,4,15616.0,25
+Burnt Hickory,4,11,6527.0,25
+Chastain,4,25,2379.0,21
+Clubhouse,4,10,7076.0,21
+Cochran,4,9,7808.0,16
+Comet,4,10,7076.0,25
+Community Center,4,13,5124.0,26
+Courtyard,4,8,9028.0,16
+Covenant,4,5,13298.0,26
+Creekside,4,15,4331.0,21
+Due West,4,12,5734.0,30
+Ellison,4,8,9028.0,20
+Equestrian,4,7,10187.0,21
+Fair Oaks,4,5,13298.0,26
+Ferry Road,4,28,1952.0,16
+Glover,4,4,15616.0,25
+Heards,4,20,3233.0,21
+Highlands,4,15,4331.0,16
+Hillcrest,4,12,5734.0,25
+Hyatt,4,4,15616.0,16
+Kroger,4,32,1586.0,16
+Lassiter,4,13,5124.0,25
+Mable,4,6,11590.0,21
+Macland,4,12,5734.0,21
+Meadow,4,53,854.0,20
+Mount Pisgah,4,6,11590.0,21
+Mountain Park,4,14,4758.0,30
+Nickajack,4,27,2074.0,30
+Noonday Creek,4,54,671.0,25
+Oakdale,4,13,5124.0,30
+Peach,4,6,11590.0,16
+Pebblebrook,4,5,13298.0,21
+Piedmont,4,18,3538.0,25
+Pine Mountain,4,9,7808.0,25
+Piney Grove,4,9,7808.0,21
+Powers Ferry Road,4,9,7808.0,16
+QuikTrip,4,33,1525.0,16
+Regency,4,10,7076.0,16
+Sam's,4,4,15616.0,16
+Sewell,4,25,2379.0,30
+Sprayberry,4,5,13298.0,25
+Spring Road,4,8,9028.0,25
+State University,4,7,10187.0,21
+Stilesboro,4,12,5734.0,25
+Summerhour,4,5,13298.0,21
+Sweat Mountain,4,6,11590.0,25
+Sweetwater,4,12,5734.0,30
+Vineyard,4,11,6527.0,21
+WellStar,4,11,6527.0,16
+Wesley Chapel,4,6,11590.0,21
+Whitlock,4,11,6527.0,16
+Willeo,4,28,1952.0,21
+Winchester,4,12,5734.0,25
+Woodlawn,4,9,7808.0,16
+1000,3,6,24320.0,15
+Addison,3,3,38016.0,20
+Adventist,3,3,38016.0,21
+Allgood,3,4,32768.0,20
+Antioch,3,7,21376.0,16
+Arbor Bridge,3,7,21376.0,20
+Arts Center,3,3,38016.0,21
+Avery,3,3,38016.0,11
+Bainbridge,3,8,18944.0,11
+Basil,3,3,38016.0,11
+Birney,3,3,38016.0,25
+Bluffs,3,5,27904.0,15
+Bob Callan,3,5,27904.0,15
+Bob Callan Trail,3,4,32768.0,15
+Browns,3,3,38016.0,16
+Bubbles,3,5,27904.0,15
+CVS Pharmacy,3,29,3840.0,11
+Cajun,3,4,32768.0,15
+Callan Trail,3,4,32768.0,15
+Calvary,3,9,16384.0,16
+Care Center,3,5,27904.0,11
+Carmichael,3,5,27904.0,16
+Carriage,3,18,7424.0,15
+Causey Chapel,3,4,32768.0,16
+Center for,3,5,27904.0,21
+Chattahoochee River,3,19,6912.0,20
+Cherokee,3,19,6912.0,15
+Chestnut,3,26,4608.0,20
+Children's,3,4,32768.0,15
+City of,3,4,32768.0,11
+Colonial Pipeline,3,57,1280.0,11
+Comet Trail,3,8,18944.0,15
+Concord Road,3,8,18944.0,20
+Concord Road Trail,3,4,32768.0,20
+County Line,3,4,32768.0,16
+Covered Bridge,3,6,24320.0,16
+Creatwood,3,5,27904.0,20
+Creek Estates,3,3,38016.0,20
+Crescent,3,12,12032.0,15
+Custer,3,6,24320.0,16
+Daniell,3,5,27904.0,20
+Davenport,3,6,24320.0,11
+Devereux,3,6,24320.0,15
+Dickerson,3,4,32768.0,16
+Dixie,3,13,10752.0,20
+Dobbins,3,6,24320.0,11
+Dodgen,3,6,24320.0,16
+Downs,3,13,10752.0,15
+Ebenezer,3,9,16384.0,11
+Edgewood,3,4,32768.0,15
+Emerson,3,10,14848.0,11
+Enclave,3,9,16384.0,15
+Episcopal,3,7,21376.0,21
+Extended Stay,3,8,18944.0,11
+Extended Stay America,3,6,24320.0,11
+Falcon,3,14,9984.0,15
+FedEx Office,3,7,21376.0,11
+Firestone,3,7,21376.0,11
+First Baptist,3,11,13696.0,21
+First United,3,5,27904.0,21
+First United Methodist,3,3,38016.0,21
+First United Methodist Church,3,3,38016.0,21
+Food Mart,3,12,12032.0,11
+Forest Ridge,3,4,32768.0,15
+Frey,3,6,24320.0,20
+Garrett,3,6,24320.0,16
+Garrison,3,9,16384.0,20
+Georgian,3,7,21376.0,15
+Glore,3,8,18944.0,11
+Gordy,3,3,38016.0,15
+Governors,3,4,32768.0,20
+Gresham,3,9,16384.0,11
+Greyfield,3,8,18944.0,15
+Grist Mill,3,5,27904.0,11
+Gun Club,3,4,32768.0,20
+Hampton Lake,3,3,38016.0,15
+Hargrove,3,3,38016.0,11
+Hickory Grove,3,9,16384.0,16
+Hightower,3,3,38016.0,20
+Hilton Atlanta,3,4,32768.0,11
+Hollydale,3,3,38016.0,25
+Homewood,3,6,24320.0,11
+Howell,3,12,12032.0,15
+Hunters,3,13,10752.0,15
+Inc.,3,6,24320.0,11
+Ivey,3,13,10752.0,15
+Jamerson,3,9,16384.0,15
+Johnson Ferry,3,10,14848.0,25
+Kell,3,4,32768.0,25
+Kemp,3,9,16384.0,16
+King Springs,3,6,24320.0,25
+Knox,3,4,32768.0,20
+Lake Park,3,15,9088.0,16
+Lakeview,3,13,10752.0,20
+Lakewood,3,7,21376.0,11
+Latimer,3,8,18944.0,11
+Learning Center,3,7,21376.0,20
+Liberty Hill,3,4,32768.0,16
+Lofts,3,5,27904.0,15
+Lost Creek,3,5,27904.0,16
+Lube,3,5,27904.0,11
+Mable House,3,4,32768.0,16
+Mack,3,5,27904.0,25
+Magnolia,3,16,8960.0,15
+Mars Hill,3,7,21376.0,11
+Mayes,3,9,16384.0,11
+McCleskey,3,3,38016.0,25
+McConnell,3,4,32768.0,15
+McEachern,3,8,18944.0,20
+McLaren,3,3,38016.0,15
+Methodist Church,3,25,4992.0,21
+Midway,3,4,32768.0,16
+Mill Road,3,25,4992.0,20
+Morgan Falls,3,3,38016.0,11
+Mount Vernon,3,5,27904.0,20
+Mountain Creek,3,11,13696.0,15
+Mountain Ridge,3,4,32768.0,15
+New Hope,3,5,27904.0,16
+New Salem,3,8,18944.0,16
+North Landing,3,8,18944.0,15
+Oakhill,3,3,38016.0,15
+Olde,3,17,8064.0,11
+Overlook,3,54,1408.0,11
+Owens,3,21,6400.0,11
+Paran,3,4,32768.0,25
+Parkwood Commons,3,3,38016.0,16
+Pavillion,3,5,27904.0,11
+Pine Creek,3,7,21376.0,15
+Pine Grove,3,8,18944.0,20
+Pitner,3,7,21376.0,25
+Plantation,3,18,7424.0,15
+Polk Street,3,4,32768.0,15
+Post Oak,3,7,21376.0,16
+Pruitt,3,3,38016.0,20
+Publix,3,29,3840.0,11
+Quarry,3,4,32768.0,15
+RaceTrac,3,32,3328.0,11
+Raintree,3,4,32768.0,20
+Red Rock,3,5,27904.0,11
+Remington,3,6,24320.0,20
+Reverie,3,4,32768.0,20
+Ridenour,3,8,18944.0,11
+Riverstone,3,5,27904.0,15
+Riverwalk,3,6,24320.0,15
+Riverwood,3,7,21376.0,20
+Road Trail,3,17,8064.0,20
+Rose Garden,3,3,38016.0,25
+Saint Joseph,3,3,38016.0,16
+Service Center,3,4,32768.0,11
+Seven Springs,3,3,38016.0,11
+Sewell Mill,3,21,6400.0,20
+Shady,3,17,8064.0,16
+Sibley,3,5,27904.0,20
+Silver Comet,3,9,16384.0,20
+Squire,3,4,32768.0,20
+Stay America,3,6,24320.0,11
+Stephens,3,4,32768.0,11
+Tate,3,32,3328.0,11
+The Brumby,3,5,27904.0,15
+The Oaks,3,4,32768.0,15
+The Preserve,3,3,38016.0,11
+Tritt,3,10,14848.0,20
+Truist,3,14,9984.0,20
+United Methodist,3,24,5504.0,21
+United Methodist Church,3,23,5888.0,21
+Village at,3,5,27904.0,11
+Vine,3,14,9984.0,20
+Vinyard,3,6,24320.0,15
+Visitor Center,3,3,38016.0,11
+Wade,3,8,18944.0,20
+Walden,3,6,24320.0,15
+Walgreens,3,26,4608.0,11
+West 22,3,9,16384.0,16
+Westside,3,8,18944.0,15
+Wexford,3,14,9984.0,15
+Whitaker,3,5,27904.0,20
+Whitefield,3,4,32768.0,25
+Whitfield,3,10,14848.0,20
+Wingate,3,3,38016.0,11
+Woodstock,3,5,27904.0,20
+Wyndham,3,10,14848.0,11
+YMCA,3,3,38016.0,16
+the Square,3,5,27904.0,20
