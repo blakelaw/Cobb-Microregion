@@ -152,8 +152,8 @@ class Clean:
         
     def cleaneddata(self,boundary):
         ways = self.boundarydata(boundary, 1)
-        ways.loc[:, 'lat'] = None
-        ways.loc[:, 'lon'] = None
+        ways['lat'] = None
+        ways['lon'] = None
         nodes = self.boundarydata(boundary, 0)
         node_dict = nodes.set_index('id').to_dict(orient='index')
         ways['lat'] = [np.mean([node_dict[node_id]['lat'] for node_id in node_list if node_id in node_dict]) 

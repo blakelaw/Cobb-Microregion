@@ -1,7 +1,7 @@
 from CentralCode import *
 
 x = time.time()
-boundary = [[34.223386, -84.281055],[34.498017, -84.303437],[34.514741, -84.613954],[34.210412, -84.606957]]
+boundary = [[37.003978, -109.043078],[36.974306, -103.006659],[31.480609, -103.062380],[31.337942, -109.061652]]
 name = "NorthAtlanta"
 Helper().mapcoordinate(boundary, name)
 cleaned = Clean().fullycleanedf(boundary)
@@ -11,5 +11,7 @@ fullycleaned = Clean().wordparse(cleaned, name,3)
 unique = cleaned.drop_duplicates(subset=['Name', 'Label'])
 markers = Helper().markers(boundary)
 dictionary = Visualize().dictionary(fullycleaned, unique, 0.6, markers)
-print(dictionary)
+
 Visualize().visualizecities(dictionary, 3,10000, markers)
+
+#[[37.003978, -109.043078],[36.974306, -103.006659],[31.480609, -103.062380],[31.337942, -109.061652]]
