@@ -11,5 +11,5 @@ fullycleaned = Clean().wordparse(cleaned, name,3)
 unique = cleaned.drop_duplicates(subset=['Name', 'Label'])
 markers = Helper().markers(boundary)
 dictionary = Visualize().dictionary(fullycleaned, unique, 0.6, markers)
-
+print(dictionary)
 Visualize().visualizecities(dictionary, 3,10000, markers)

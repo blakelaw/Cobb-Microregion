@@ -531,7 +531,10 @@ class Visualize:
                 if(len(typeset)>=4 and len(typeset)>maxscore):
                     maxscore = len(typeset)
                     bestcluster = i
-            finaldict[word] = bestcluster
+            if(bestcluster and len(bestcluster)>1):
+                finaldict[word] = bestcluster[1]
+            else:
+                finaldict[word] = None
         return finaldict
     
     def visualizecities(self,data, minp, maxp, markers):
@@ -562,7 +565,7 @@ class Visualize:
         for i, (key, value) in enumerate(data.items()):
             if value is not None:
                 if minp <= len(value[1]) <= maxp:
-                    coordinates = [(float(item[3]), float(item[2])) for item in value[1]]
+                    coordinates = [(float(item[3]), float(item[2])) for item in value]
                     x, y = zip(*coordinates)
                     scatter = ax.scatter(x, y, label=key, color=custom_colors[i % 18], s=10)
                     texts.append(ax.text(x[0], y[0], key, fontsize=12, ha='center', va='center'))
