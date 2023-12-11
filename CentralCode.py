@@ -2,7 +2,6 @@ import requests
 import json
 import time
 import pandas as pd
-from pandas.io.json import json_normalize
 import folium
 import numpy as np
 from collections import defaultdict
@@ -67,7 +66,6 @@ class Helper:
         for coord in coordinates:
             folium.Marker(coord).add_to(m)
         m.save(name + '.html')
-        print("Ran Successfully")
         
     def polystring(self,boundarylist):
         string = ""
@@ -350,7 +348,7 @@ class Clean:
         cleaned_df = pd.concat([clean_n, clean_w, clean_r], ignore_index=True)
         return cleaned_df
     
-    def wordparse(self, df, name,mincat):
+    def wordparse(self, df, name,mincat, save):
         df = df[~((df['Label'] == 11) & (df.duplicated(subset=['Name', 'Label'])))]
         df = df[df['Label'] != 20]
 
@@ -466,8 +464,9 @@ class Clean:
         # Reset index after filtering
         final_filtered_df.reset_index(drop=True, inplace=True)
         
-        file_path = name + ".csv"
-        final_filtered_df.to_csv(file_path, index=False)
+        if(save):
+            file_path = name + ".csv"
+            final_filtered_df.to_csv(file_path, index=False)
         
         return final_filtered_df
 
@@ -564,7 +563,7 @@ class Visualize:
 
         for i, (key, value) in enumerate(data.items()):
             if value is not None:
-                if minp <= len(value[1]) <= maxp:
+                if minp <= len(value) <= maxp:
                     coordinates = [(float(item[3]), float(item[2])) for item in value]
                     x, y = zip(*coordinates)
                     scatter = ax.scatter(x, y, label=key, color=custom_colors[i % 18], s=10)
@@ -574,7 +573,9 @@ class Visualize:
         ax.set_xlabel('Longitude')
         ax.set_ylabel('Latitude')
         ax.set_aspect('equal')
-        adjust_text(texts, arrowprops=dict(arrowstyle='->', color='black'), ax=ax)
-
+        try:
+            adjust_text(texts, arrowprops=dict(arrowstyle='->', color='black'), ax=ax)
+        except:
+            pass
         plt.tight_layout()
         plt.show()
